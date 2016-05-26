@@ -81,7 +81,8 @@ module.exports.connections = {
      password: process.env.DB_PASSWORD, // optional
      database: process.env.DB_NAME, //optional
      port: 5432,
-     schema: true
+     schema: true,
+     ssl: true
   },
 
   /***************************************************************************
